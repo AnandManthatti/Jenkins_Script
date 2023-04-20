@@ -26,10 +26,15 @@ pipeline {
                 echo 'Deploy_project_A'
             }
         } 
-        stage('Deploy_production') {
+        stage('Deploy_production_1') {
             steps {
-                echo 'Deploy_project_A'
+                echo 'Deploy_production_1'
             }
-        }       
+        } 
+        stage('Deploy_production_1') {
+            steps {
+                echo 'Deploy_production_2'
+            }
+        }        
     }
 }
