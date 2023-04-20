@@ -31,7 +31,7 @@ pipeline {
                 echo 'Deploy_production_1'
             }
         } 
-        stage('Deploy_production_1') {
+        stage('Deploy_production_2') {
             steps {
                 echo 'Deploy_production_2'
             }
